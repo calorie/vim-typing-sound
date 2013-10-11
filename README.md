@@ -18,8 +18,8 @@ toggle typing sound on/off.
 
 ```
 " Default value
-let g:vim_typing_sound = 0                  # sound off
-let g:vim_typing_sound_command = 'aplay -q' # or 'afplay'
-let g:vim_typing_sound_path = ''            # set your sound path
+let g:vim_typing_sound = 0                  " sound off
+let g:vim_typing_sound_command = 'aplay -q' " or 'afplay'
+let g:vim_typing_sound_path = ''            " set your sound path
 ```
 
