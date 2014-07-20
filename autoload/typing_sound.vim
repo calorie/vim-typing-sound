@@ -23,7 +23,7 @@ function! typing_sound#play()
     return
   endif
   let cmd = g:vim_typing_sound_command . ' ' . g:vim_typing_sound_path
-  if g:loaded_vimproc == 1
+  if exists('g:loaded_vimproc') && g:loaded_vimproc == 1
     call vimproc#system_bg(cmd)
   else
     silent! exec '!' . cmd . ' &'
